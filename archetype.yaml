@@ -1,0 +1,12 @@
+---
+description: "A basic Archetect archetype starter"
+authors: ["Jimmie Fulton <jimmie.fulton@gmail.com>"]
+languages: ["Archetect"]
+frameworks: ["Archetect"]
+tags: ["Archetype", "Starter"]
+
+requires:
+  archetect: 2.0.0
+
+components:
+  gitignore: git@github.com:archetect-common/dot-gitignore.archetype.git

@@ -1,0 +1,9 @@
+---
+description: "{{ description }}"
+authors: ["{{ author_full }}"]
+languages: []
+frameworks: []
+tags: []
+
+requires:
+  archetect: "{{ archetect_version }}"
