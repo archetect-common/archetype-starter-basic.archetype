@@ -1,4 +1,4 @@
-# {{ archetype-title }} Archetype
+# {{ description }} Archetype
 
 {% if source-control == "Github" -%}
 ![Latest Release](https://img.shields.io/github/v/release/{{ organization-name }}/{{ archetype-name }}.archetype?style=flat-square&label=Latest%20Release&color=blue)
