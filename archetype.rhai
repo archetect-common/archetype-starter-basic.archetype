@@ -44,7 +44,18 @@ if context.contains("source-control") {
     });
     context += set("git-repo", render("git@github.com:{{ organization-name }}/{{ archetype-name }}.archetype.git#v1", context));
     render(Directory("contents/github"), context);
-   
+  }
+}
+
+render(Directory("contents/base"), context);
+
+render(Archetype("gitignore"), Path(`${context["archetype-name"]}.archetype`), #{
+    ignore: ["IDEA", "VSCode", "Eclipse"]
+});
+
+
+if context.contains("source-control") {
+  if context["source-control"] == "Github" {
     display();
     display(render("cd {{ archetype-name }}.archetype", context));
     display("git init -b main");
@@ -54,11 +65,5 @@ if context.contains("source-control") {
     display("git push -u origin HEAD");
   }
 }
-
-render(Directory("contents/base"), context);
-
-render(Archetype("gitignore"), Path(`${context["archetype-name"]}.archetype`), #{
-    ignore: ["IDEA", "VSCode", "Eclipse"]
-});
 
 
