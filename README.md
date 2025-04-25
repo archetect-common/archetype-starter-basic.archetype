@@ -2,6 +2,8 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/archetect-common/archetype-starter-basic.archetype?style=flat-square&label=Latest%20Release&color=blue)
 
+This is an [Archetect](https://archetect.github.io/) archetype.
+
 ## Rendering
 
 To generate an Archetype from this Archetype, copy and execute the following command:
