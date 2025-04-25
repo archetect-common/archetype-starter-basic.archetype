@@ -9,4 +9,4 @@ requires:
   archetect: 2.0.0
 
 components:
-  gitignore: git@github.com:archetect-common/dot-gitignore.archetype.git
+  gitignore: git@github.com:archetect-common/dot-gitignore.archetype.git#v1
