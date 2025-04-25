@@ -9,7 +9,7 @@ This is an [Archetect](https://archetect.github.io/) archetype.
 To generate an Archetype from this Archetype, copy and execute the following command:
 
 ```sh
-archetect render git@github.com:archetect-common/archetype-starter-basic.archetype.git
+archetect render git@github.com:archetect-common/archetype-starter-basic.archetype.git#v1
 ```
 
 This is an [Archetect](https://archetect.github.io/) archetype for scaffolding
