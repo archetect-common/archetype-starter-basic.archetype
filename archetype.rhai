@@ -42,7 +42,7 @@ if context.contains("source-control") {
     context += prompt("Github Organization:", "organization-name", #{
       placeholder: "orgname/username",
     });
-    context += set("git-repo", render("git@github.com:{{ organization-name }}/{{ archetype-name }}.archetype.git", context));
+    context += set("git-repo", render("git@github.com:{{ organization-name }}/{{ archetype-name }}.archetype.git#v1", context));
     render(Directory("contents/github"), context);
    
     display();
