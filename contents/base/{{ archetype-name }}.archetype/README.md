@@ -1,8 +1,9 @@
 # {{ description }} Archetype
 
-{% if source-control == "Github" -%}
+{%- if source-control == "Github" -%}
+
 ![Latest Release](https://img.shields.io/github/v/release/{{ organization-name }}/{{ archetype-name }}.archetype?style=flat-square&label=Latest%20Release&color=blue)
-{%- endif -%}
+{%- endif %}
 
 This is an [Archetect](https://archetect.github.io/) archetype.
 
