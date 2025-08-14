@@ -6,7 +6,7 @@ frameworks: ["Archetect"]
 tags: ["Archetype", "Starter"]
 
 requires:
-  archetect: 2.0.0
+  archetect: 2.0.7
 
 components:
-  gitignore: git@github.com:archetect-common/dot-gitignore.archetype.git#v1
+  gitignore: https://github.com/archetect-common/dot-gitignore.archetype.git#v1

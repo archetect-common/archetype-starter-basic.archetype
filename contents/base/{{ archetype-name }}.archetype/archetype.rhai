@@ -5,7 +5,7 @@ context += prompt("Project Author:", "author_full", #{
     placeholder: "Your Name <your.name@example.com>",
 });
 
-context += prompt("Project Name:", "project-name", #{
+context += prompt("Project Name:", "archetype-name", #{
   cases: [
     CasedValue(KebabCase), 
   ], 
